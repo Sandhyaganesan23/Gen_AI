@@ -1,9 +1,12 @@
 ## Install Python Environment in local
 
+```markdown
 ```mermaid
-flowchart LR
-    A[Data] --> B[Feature Engineering]
-    B --> C[Model Training]
-    C --> D[Evaluation]
-    D --> E[Deployment]
-    E --> F[Monitoring]
+flowchart TD
+    A[Raw Data] --> B[Data Ingestion]
+    B --> C[Feature Engineering]
+    C --> D[Model Training]
+    D --> E[Model Evaluation]
+    E --> F[Model Deployment]
+    F --> G[Predictions API]
+    G --> H[Monitoring & Drift Detection]
