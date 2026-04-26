@@ -15,3 +15,15 @@ flowchart LR
 flowchart LR
     A[The] --> B[cat] --> C[sat] --> D[on] --> E[the] --> F[mat]
 ```
+
+</> Markdown
+``` mermaid
+flowchart TD
+    A[The] --- B[cat]
+    A --- C[sat]
+    A --- D[on]
+    A --- E[the]
+    A --- F[mat]
+    B --- C
+    B --- D
+```
