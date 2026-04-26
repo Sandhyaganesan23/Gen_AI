@@ -9,12 +9,7 @@ flowchart LR
     G --> H[Monitoring & Drift Detection]
 ```
 
-
+```markdown
 ```mermaid
 flowchart LR
-    A[The] --> B[cat]
-    B --> C[sat]
-    C --> D[on]
-    D --> E[the]
-    E --> F[mat]
-    F --> G["Early info fades"]
+    A[The] --> B[cat] --> C[sat] --> D[on] --> E[the] --> F[mat]
