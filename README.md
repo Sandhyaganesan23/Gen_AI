@@ -12,8 +12,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A[Data] --> B[Feature Engineering]
-    B --> C[Model Training]
-    C --> D[Evaluation]
-    D --> E[Deployment]
-    E --> F[Monitoring]
+    A[The] --> B[cat]
+    B --> C[sat]
+    C --> D[on]
+    D --> E[the]
+    E --> F[mat]
+    F --> G["Early info fades"]
