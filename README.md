@@ -10,6 +10,7 @@ flowchart LR
 ```
 
 ```markdown
+```
 ```mermaid
 flowchart LR
     A[The] --> B[cat] --> C[sat] --> D[on] --> E[the] --> F[mat]
