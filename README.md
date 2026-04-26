@@ -8,3 +8,12 @@ flowchart LR
     F --> G[Deployment API]
     G --> H[Monitoring & Drift Detection]
 ```
+
+
+```mermaid
+flowchart LR
+    A[Data] --> B[Feature Engineering]
+    B --> C[Model Training]
+    C --> D[Evaluation]
+    D --> E[Deployment]
+    E --> F[Monitoring]
