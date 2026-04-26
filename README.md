@@ -16,7 +16,7 @@ flowchart LR
     A[The] --> B[cat] --> C[sat] --> D[on] --> E[the] --> F[mat]
 ```
 
-</> Markdown
+
 ``` mermaid
 flowchart TD
     A[The] --- B[cat]
