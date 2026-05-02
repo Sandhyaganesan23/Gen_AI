@@ -1,13 +1,21 @@
-</> Markdown
 ```mermaid
-flowchart LR
-    A[Raw Data] --> B[Tokenization]
-    B --> C[Token Embeddings]
-    C --> D[Positional Encoding]
-    D --> E[Model Evaluation]
-    E --> F[Model Registry]
-    F --> G[Deployment API]
-    G --> H[Monitoring & Drift Detection]
+flowchart TD
+    A["Input: The cat sat on the mat"] --> B["Tokenization"]
+    B --> C["Token Embeddings"]
+    C --> D["Positional Encoding"]
+    D --> E
+
+    subgraph E["Transformer Block<br/>(Repeated N times)"]
+        F["Multi-Head<br/>Self-Attention"] --> G["Add & Normalize"]
+        G --> H["Feedforward Layer"]
+        H --> I["Add & Normalize"]
+    end
+
+    E --> J["Output Embeddings<br/>(rich contextual vectors)"]
+
+    B -.-> Bnote["Tokens:<br/>The, cat, sat..."]
+    C -.-> Cnote["Each token → vector"]
+    D -.-> Dnote["Add position info"]
 ```
 
 
