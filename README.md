@@ -30,9 +30,9 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    A[Raw Data] --> B[Data Ingestion]
-    B --> C[Feature Engineering]
-    C --> D[Model Training]
+    A[Raw Data] --> B[Tokenization]
+    B --> C[Token Embeddings]
+    C --> D[Positional Encoding]
     D --> E[Model Evaluation]
     E --> F[Model Registry]
     F --> G[Deployment API]
